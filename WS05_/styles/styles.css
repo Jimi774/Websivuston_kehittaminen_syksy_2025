@@ -138,7 +138,7 @@ p {
     text-align: center;
   }
   
-  @media (max-width: 400px) {
+  @media (max-width: 600px) {
     .responsive-box {
       background-color: lightcoral;
     }
@@ -149,4 +149,3 @@ p {
       background-color: lightseagreen;
     }
   }
-      

@@ -1,5 +1,8 @@
+<!DOCTYPE html>
 <html>
   <head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First HTLM Page</title>
     <style>
     h1 {
@@ -10,11 +13,11 @@
      <link rel="stylesheet" href="./styles/styles.css">
   </head>
   <body>
-    <h1>Tervetuloa</h1>
     <h1 class="animation-box">Tervetuloa</h1>
+   
     <p>nykyinen opiskelija.</p>
     <img src="./images/omakuva.jpg" alt="omakuva"
-    style="width:500px; height:600px;" class="filter-image">
+    style="width:300px; height:400px;" class="filter-image">
     <h2>harrastukset</h2>
     <ol>
       <li>opiskelen</li>
@@ -70,7 +73,36 @@
     <div class="grid-item">6</div>
   </div>
   <div class="responsive-box">Resize the window to see the effect</div>
-    
+    <header style="background-color: rgb(159, 159, 206);">
+    <h1>My Website</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>This is a paragraph about me.</p>
+    </section>
+    <section id="services">
+    <h2>Services</h2>
+    <p>Palvelut.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>yhteystiedot.</p>
+  </section>
+  </main>
+  
+  <footer>
+    <p>Copyright 2025</p>
+  </footer>
    
 
   </body>
