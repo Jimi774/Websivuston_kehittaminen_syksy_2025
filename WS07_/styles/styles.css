@@ -62,11 +62,11 @@ h1 {
   font-family: "Permanent Marker", cursive;
   margin: 60px auto 10px;
   text-align: center;
-  font-size: 5vw;
+  font-size: 3rem;
 }
 
 p {
-  font-size: 2vw;
+  font-size: 1.2rem;
   font-weight: bold;
   margin-top: 20px;
 }
