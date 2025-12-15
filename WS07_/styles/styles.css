@@ -54,6 +54,9 @@ footer {
   align-items: center;
   justify-content: center;
 }
+html {
+  font-size: 20px;
+}
 
 
 h1 {
