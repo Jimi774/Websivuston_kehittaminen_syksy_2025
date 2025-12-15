@@ -1,36 +1,144 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fi">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Urheilu-sivu</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Napoli – Nähtävyydet</title>
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
-          rel="stylesheet" 
-          integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
-          crossorigin="anonymous">
-  </head>
-  <body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
 
-    <!-- Navbar: takaisin etusivulle -->
-    <nav class="navbar bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-          ← Takaisin etusivulle
-        </a>
+<body>
+
+<!-- NAVIGAATIO -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Matkailusivusto</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Etusivu</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="matkailu.html">Napoli</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="matkailu2.html">Lissabon</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="matkailu3.html">Budapest</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container mt-4">
+  <h1 class="mb-4">Napolin nähtävyydet</h1>
+  <p class="mb-4">
+    Napoli on Etelä-Italian eläväinen ja historiallinen kaupunki, joka tunnetaan
+    rikkaasta kulttuuristaan, antiikin nähtävyyksistään ja upeista merimaisemistaan.
+    Kaupunki toimii myös porttina Pompeijiin ja Vesuviukseen.
+  </p>
+
+  <div class="row">
+
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="https://kerranelamassa.fi/wp-content/uploads/2020/01/italia-napoli-theo-roland-unsplash.jpg" class="card-img-top" alt="Napolin vanhakaupunki">
+        <div class="card-body">
+          <h5 class="card-title">Napolin vanhakaupunki</h5>
+          <p class="card-text">UNESCO:n maailmanperintökohde täynnä historiallisia katuja ja kirkkoja.</p>
+        </div>
       </div>
-    </nav>
-
-    <!-- Sivun sisältö -->
-    <div class="container mt-4">
-      <h1>Matkailu-sivu</h1>
-      <p>Tämä on urheiluaiheinen sivu. Klikkaa navbar-linkkiä palataksesi takaisin etusivulle.</p>
     </div>
 
-    <!-- Bootstrap JS  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
-            integrity="sha384-ENjdO4Dr2bkBIFxQpeo5F5GZhpGn9J6ZqJvC1i9gG8d20l5dxm2kz4v5y23wV5c6" 
-            crossorigin="anonymous"></script>
-  </body>
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="https://img1.advisor.travel/1314x680px-Naples_National_Archaeological_Museum_22.jpg" class="card-img-top" alt="Napolin arkeologinen museo">
+        <div class="card-body">
+          <h5 class="card-title">Napolin arkeologinen museo</h5>
+          <p class="card-text">Maailman tärkeimpiä antiikin esineistön museoita, mm. Pompeijin löytöjä.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="https://pompeiitickets.tours/wp-content/uploads/2025/04/temple-of-jupiter-in-pompeii.jpg" class="card-img-top" alt="Pompeiji ja Herculaneum">
+        <div class="card-body">
+          <h5 class="card-title">Pompeiji ja Herculaneum</h5>
+          <p class="card-text">Antiikin roomalaiset kaupungit Vesuviuksen purkauksen jäljiltä, päiväretken päässä Napolista.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/208000/208058-Castle-Of-The-Egg-Castel-Dellovo.jpg" class="card-img-top" alt="Castel dell’Ovo">
+        <div class="card-body">
+          <h5 class="card-title">Castel dell’Ovo</h5>
+          <p class="card-text">Napolin vanhin linna meren rannalla, upein näkymin lahden yli.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="https://www.hotelrealortobotanico.it/wp-content/uploads/sites/419/2022/03/hotel_real_orto_botanico_napoli_monumenti_musei_spaccanapoli_preview.jpg" class="card-img-top" alt="Spaccanapoli">
+        <div class="card-body">
+          <h5 class="card-title">Spaccanapoli</h5>
+          <p class="card-text">Kapea katu, joka jakaa vanhankaupungin kahteen osaan, täynnä kahviloita ja putiikkeja.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="https://img1.advisor.travel/1200x630px-Naples_Cathedral_1.jpg" class="card-img-top" alt="Napolin katedraali">
+        <div class="card-body">
+          <h5 class="card-title">Napolin katedraali</h5>
+          <p class="card-text">Upea goottilais-barokki katedraali, tunnettu Pyhän Gennaron ihmeestä.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  const current = window.location.pathname.split("/").pop();
+  document.querySelectorAll(".nav-link").forEach(link => {
+    if (link.getAttribute("href") === current) {
+      link.classList.add("active");
+      link.setAttribute("aria-current", "page");
+    }
+  });
+</script>
+<footer>
+    <div class="Yhteystiedot">
+    <p>Yhteystiedot</p>
+    <p>puh. 040 123 4567</p>
+    <p>sähköposti: info@yritys.fi</p>
+  </div>
+  <p>Copyright 2025</p>
+  <a href="#top" class="to-top">↑</a>
+  </footer>
+
+</body>
 </html>

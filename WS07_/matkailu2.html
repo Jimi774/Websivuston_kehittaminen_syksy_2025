@@ -1,37 +1,152 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fi">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Urheilu-sivu</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lissabonin Nähtävyydet</title>
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
-          rel="stylesheet" 
-          integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
-          crossorigin="anonymous">
-  </head>
-  <body>
 
-    <!-- Navbar: takaisin etusivulle -->
-    <nav class="navbar bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-          ← Takaisin etusivulle
-        </a>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+     <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+
+<!-- NAVIGAATIO -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Matkailusivusto</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Etusivu</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="matkailu.html">Napoli</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="matkailu2.html">Lissabon</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="matkailu3.html">Budapest</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container mt-4">
+  <h1 class="mb-4">Lissabonin nähtävyydet</h1>
+   <p class="mb-4">
+    Lissabon on Portugalin viehättävä pääkaupunki, joka tunnetaan historiallisista
+    kaupunginosistaan, kauniista näköaloistaan ja rennosta tunnelmastaan.
+    Kaupunki yhdistää perinteet, merenkulun historian ja modernin kaupunkikulttuurin.
+  </p>
+
+  <div class="row">
+
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Torre_de_Belem_1.JPG"
+             class="card-img-top" alt="Belémin torni">
+        <div class="card-body">
+          <h5 class="card-title">Belémin torni</h5>
+          <p class="card-text">Lissabonin tunnetuin maamerkki joen rannalla.</p>
+        </div>
       </div>
-    </nav>
-
-    <!-- Sivun sisältö -->
-    <div class="container mt-4">
-      <h1>Urheilu-sivu</h1>
-      <p>Tämä on urheiluaiheinen sivu. Klikkaa navbar-linkkiä palataksesi takaisin etusivulle.</p>
     </div>
 
-    <!-- Bootstrap JS (tarvittaessa) -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
-            integrity="sha384-ENjdO4Dr2bkBIFxQpeo5F5GZhpGn9J6ZqJvC1i9gG8d20l5dxm2kz4v5y23wV5c6" 
-            crossorigin="anonymous"></script>
-  </body>
-</html>
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="https://cdn-imgix.headout.com/media/images/b4086b469123ab4340a21b25c2e5c3ba-Monastery%20of%20Jero%CC%81nimos%20.jpg"
+             class="card-img-top" alt="Jerónimosin luostari">
+        <div class="card-body">
+          <h5 class="card-title">Jerónimosin luostari</h5>
+          <p class="card-text">Vaikuttava historiallinen luostari Belémin alueella.</p>
+        </div>
+      </div>
+    </div>
 
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="https://lisbonguide.org/wp-content/uploads/2023/10/alfama-lisbon-views-best-places-scaled.jpg"
+             class="card-img-top" alt="Alfama">
+        <div class="card-body">
+          <h5 class="card-title">Alfama</h5>
+          <p class="card-text">Lissabonin vanhin ja tunnelmallisin kaupunginosa.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="https://res.cloudinary.com/hello-tickets/image/upload/c_limit,f_auto,q_auto,w_768/v1647223474/post_images/lisbon-138/night/castillo-san-jorge-lisbon_Cropped.jpg"
+             class="card-img-top" alt="São Jorgen linna">
+        <div class="card-body">
+          <h5 class="card-title">São Jorgen linna</h5>
+          <p class="card-text">Upeat näkymät koko kaupungin yli.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="https://q-xx.bstatic.com/xdata/images/xphoto/800x800/336540725.jpg?k=d1c380a84213acc22249d45eefc6dfb2294242f6677e0a1a152f451fa9404b76&o="
+             class="card-img-top" alt="Raitiovaunu 28">
+        <div class="card-body">
+          <h5 class="card-title">Raitiovaunu 28</h5>
+          <p class="card-text">Historiallinen raitiovaunu halki keskustan.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZISnGLuqjFPs-CQGi0ljBKhbecGAC0EPD6g&s"
+             class="card-img-top" alt="LX Factory">
+        <div class="card-body">
+          <h5 class="card-title">LX Factory</h5>
+          <p class="card-text">Trendikäs alue ravintoloita ja taidetta.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Aktiivisen linkin korostus -->
+<script>
+  const current = window.location.pathname.split("/").pop();
+  document.querySelectorAll(".nav-link").forEach(link => {
+    if (link.getAttribute("href") === current) {
+      link.classList.add("active");
+      link.setAttribute("aria-current", "page");
+    }
+  });
+</script>
+<footer>
+    <div class="Yhteystiedot">
+    <p>Yhteystiedot</p>
+    <p>puh. 040 123 4567</p>
+    <p>sähköposti: info@yritys.fi</p>
+  </div>
+  <p>Copyright 2025</p>
+  <a href="#top" class="to-top">↑</a>
+  </footer>
+
+</body>
+</html>
